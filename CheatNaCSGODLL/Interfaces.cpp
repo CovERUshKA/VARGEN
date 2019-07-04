@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "Interfaces.h"
 
 Interfaces::Interfaces() noexcept

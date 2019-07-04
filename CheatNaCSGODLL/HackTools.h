@@ -26,7 +26,7 @@ public:
 	Vector2D WorldToScreen(const Vector world);
 	//Sort by distance - sortby: 0 - nearest player, 1 - furthest player
 	//Filter by Team - filter: 0 - All, 1 - Enemies, 2 - Allies
-	Entity* HackTools::GetVisibleHurtablePlayer(int sortby, int filter);
+	Entity* GetVisibleHurtablePlayer(int sortby, int filter);
 };
 
 extern HackTools hacktools;
