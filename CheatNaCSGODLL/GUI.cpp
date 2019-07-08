@@ -292,10 +292,10 @@ void GUI::renderColorsWindow() noexcept
 		ImGui::ColorEdit4("Team", config.esp.colors.allies, ImGuiColorEditFlags_NoInputs, ImGuiColorEditFlags_NoSidePreview | ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_AlphaBar);
 		ImGui::NewLine();
 		ImGui::Text("Chams");
-		ImGui::ColorEdit4("Enemy", config.chams[0].colors.enemies, ImGuiColorEditFlags_NoInputs, ImGuiColorEditFlags_NoSidePreview | ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_AlphaBar);
-		ImGui::ColorEdit4("Team", config.chams[0].colors.allies, ImGuiColorEditFlags_NoInputs, ImGuiColorEditFlags_NoSidePreview | ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_AlphaBar);
-		ImGui::ColorEdit4("Enemy", config.chams[1].colors.enemies, ImGuiColorEditFlags_NoInputs, ImGuiColorEditFlags_NoSidePreview | ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_AlphaBar);
-		ImGui::ColorEdit4("Team", config.chams[1].colors.allies, ImGuiColorEditFlags_NoInputs, ImGuiColorEditFlags_NoSidePreview | ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_AlphaBar);
+		ImGui::ColorEdit4("Enemy Visible", config.chams[0].colors.enemies, ImGuiColorEditFlags_NoInputs, ImGuiColorEditFlags_NoSidePreview | ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_AlphaBar);
+		ImGui::ColorEdit4("Team Visible", config.chams[0].colors.allies, ImGuiColorEditFlags_NoInputs, ImGuiColorEditFlags_NoSidePreview | ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_AlphaBar);
+		ImGui::ColorEdit4("Enemy Invisible", config.chams[1].colors.enemies, ImGuiColorEditFlags_NoInputs, ImGuiColorEditFlags_NoSidePreview | ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_AlphaBar);
+		ImGui::ColorEdit4("Team Invisible", config.chams[1].colors.allies, ImGuiColorEditFlags_NoInputs, ImGuiColorEditFlags_NoSidePreview | ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_AlphaBar);
 	}
 }
 
