@@ -2,7 +2,7 @@
 
 #include "Material.h"
 #include "Utils.h"
-#include "../../../MathTools.h"
+#include "../MathTools.h"
 
 using matrix3x4 = float[3][4];
 
