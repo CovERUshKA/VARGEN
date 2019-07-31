@@ -2,8 +2,7 @@
 
 // Файлы заголовков Windows
 #include <windows.h>
-#include "../../Offsets.h"
-#include "../../MathTools.h"
+#include "MathTools.h"
 #include <string>
 #include <iostream>
 
