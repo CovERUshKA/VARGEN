@@ -2,7 +2,6 @@
 #include "../../MathTools.h"
 #include <Windows.h>
 #include "Memory.h"
-#include "../../Offsets.h"
 #include "SDK/UserCMD.h"
 
 class HackTools final {
