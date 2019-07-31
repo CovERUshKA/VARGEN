@@ -6,14 +6,6 @@
 
 class HackTools final {
 public:
-	Vector getBonePos(int pTargetIn, int bone);
-
-	/*Set new ViewAngle*/
-	void setViewAngle(DWORD EngineBase, Vector angle);
-
-	/*Set new ViewAngle*/
-	Vector getViewAngle(DWORD EngineBase);
-
 	/*Calc angle to target bone*/
 	Vector AngelToTarget(Entity* localPlayer, Entity* target, int boneIndex);
 
