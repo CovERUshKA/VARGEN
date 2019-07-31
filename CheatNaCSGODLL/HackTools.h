@@ -1,5 +1,5 @@
 #pragma once
-#include "../../MathTools.h"
+#include "MathTools.h"
 #include <Windows.h>
 #include "Memory.h"
 #include "SDK/UserCMD.h"
