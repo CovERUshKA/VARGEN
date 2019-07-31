@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../../MathTools.h"
+#include "../MathTools.h"
 
 //typedef float matrix3x4_t[3][4];
 
