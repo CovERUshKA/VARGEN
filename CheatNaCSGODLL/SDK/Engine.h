@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Utils.h"
-#include "../../../MathTools.h"
+#include "../MathTools.h"
 
 struct PlayerInfo {
 	__int64 pad;
