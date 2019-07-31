@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../../../MathTools.h"
+#include "../MathTools.h"
 
 struct UserCmd final {
 	enum {
