@@ -3,7 +3,7 @@
 #include "../Interfaces.h"
 #include "EngineTrace.h"
 #include "Utils.h"
-#include "../../../MathTools.h"
+#include "../MathTools.h"
 #include "../Netvars.h"
 #include "ClassId.h"
 #include "ClientClass.h"
