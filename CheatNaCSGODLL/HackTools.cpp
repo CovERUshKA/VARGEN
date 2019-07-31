@@ -2,37 +2,6 @@
 #include "Config.h"
 #include "SDK/UserCMD.h"
 
-Vector HackTools::getBonePos(int pTargetIn, int bone)
-{
-	const int matrix = mem.Read<int>(pTargetIn + m_dwBoneMatrix);
-	return Vector(
-		mem.Read<float>(matrix + 0x30 * bone + 0xC),
-		mem.Read<float>(matrix + 0x30 * bone + 0x1C),
-		mem.Read<float>(matrix + 0x30 * bone + 0x2C)
-	);
-}
-
-/*Set new ViewAngle*/
-Vector HackTools::getViewAngle(DWORD EngineBase)
-{
-
-	Vector angle = mem.Read<Vector>(EngineBase + dwClientState_ViewAngles);
-
-	ClampAngles(angle);
-	NormalizeAngles(angle);
-
-	return angle;
-}
-
-/*Set new ViewAngle*/
-void HackTools::setViewAngle(DWORD EngineBase, Vector angle)
-{
-	ClampAngles(angle);
-	NormalizeAngles(angle);
-
-	mem.Write(EngineBase + dwClientState_ViewAngles, angle);
-}
-
 /*Calc angle to target bone*/
 Vector HackTools::AngelToTarget(Entity* localPlayer, Entity* target, int boneIndex)
 {
