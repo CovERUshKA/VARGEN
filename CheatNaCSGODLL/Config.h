@@ -101,9 +101,6 @@ public:
 	} visuals;
 
 	struct {
-		struct {
-			bool animate{ false };
-		} clantag;
 		bool bunnyhop{ false };
 		bool autostrafe{ false };
 		bool fastduck{ false };
