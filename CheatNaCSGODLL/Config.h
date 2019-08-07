@@ -104,7 +104,6 @@ public:
 		bool bunnyhop{ false };
 		bool autostrafe{ false };
 		bool fastduck{ false };
-		bool antikick{ false };
 		struct {
 			bool enabled{ false };
 			float time{ 0.0f };
