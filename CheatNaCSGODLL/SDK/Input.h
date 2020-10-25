@@ -1,7 +1,7 @@
 #pragma once
 
 #include <Windows.h>
-#include "../../MathTools.h"
+#include "../MathTools.h"
 
 class Input {
 public:

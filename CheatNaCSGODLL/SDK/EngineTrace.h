@@ -2,7 +2,7 @@
 
 #include <cstddef>
 #include "Utils.h"
-#include "../../MathTools.h"
+#include "../MathTools.h"
 
 struct Ray {
 	Ray(const Vector& src, const Vector& dest) : start(src), delta(dest - src) { isSwept = delta.x || delta.y || delta.z; }

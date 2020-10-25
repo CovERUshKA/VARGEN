@@ -2,7 +2,7 @@
 
 #include <cstdint>
 #include <type_traits>
-#include "../../MathTools.h"
+#include "../MathTools.h"
 
 struct recvProxyData {
 	int pad;

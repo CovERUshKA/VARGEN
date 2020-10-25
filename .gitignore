@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+.vs/CheatNaCSGODLL/v16/.suo
+*.db
+*.ipch
+*.log
+*.recipe
+*.tlog
+*.pdb
+*.iobj
+*.ipdb
