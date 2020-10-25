@@ -67,8 +67,8 @@ void Misc::autoPistol(UserCmd* cmd) noexcept
 
 void Misc::AntiKick(bf_read& msg_data) noexcept
 {
-	if (!config.misc.antikick)
-		return;
+	//if (!config.misc.antikick)
+		//return;
 
 	msg_data.SetOffset(1);
 	auto ent_index = msg_data.ReadByte();
