@@ -42,3 +42,7 @@
 *.db-shm
 *.db-wal
 *.opendb
+.vs
+Debug
+Release
+x64
