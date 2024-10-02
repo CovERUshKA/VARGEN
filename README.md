@@ -1,4 +1,4 @@
 # VARGEN
 Сheat for CS:GO. Based on Osiris - https://github.com/danielkrupinski/Osiris
 
-!["View"](https://cdn.discordapp.com/attachments/498189410970501151/598053122082078720/unknown.png)
+!["View"](https://github.com/user-attachments/assets/f6b83e9e-e227-4933-9131-b4288759d697)
